@@ -18,7 +18,8 @@ Use ONLY nano, javac, and other command line tools to create this program.
 
 DO NOT use IntelliJ, or other code editors.
 
-The point of this lab is to understand how to create a java program using only shell tools.
+The point of this lab is to understand how to create a java program using only shell tools. All the .txt files are just samples
+of text and just used as input. (If it matters, they are all in UTF-8 format.)
 
 CountInFile should get the command line arguments, and then create a FileCounting object and call a method named:
 
