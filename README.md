@@ -6,6 +6,7 @@ create a commandline program for counting the lines, words and characters within
 
 Create, using a standard text editor like nano, two class files (CountInFile.java & FileCounting.java) that will produce the following output when run from the shell:
 
+```
 $ java CountInFile *.txt
       34     268    1425 antonysspeech.txt
       75     458    2783 chineseproverbs.txt
@@ -13,6 +14,7 @@ $ java CountInFile *.txt
       11      99     649 preamble.txt
       12     106     713 primedirective.txt
      202    1689    9763 total
+```
 
 Use ONLY nano, javac, and other command line tools to create this program. 
 
@@ -23,7 +25,7 @@ of text and just used as input. (If it matters, they are all in UTF-8 format.)
 
 CountInFile should get the command line arguments, and then create a FileCounting object and call a method named:
 
-`public String ScanTheFile(String filename)` which return 
+`public String ScanTheFile(String filename)` which returns 
 
 `      34     268    1425 antonysspeech.txt` when handed "antonysspeech.txt"
 
