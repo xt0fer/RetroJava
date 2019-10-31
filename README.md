@@ -31,6 +31,7 @@ CountInFile should get the command line arguments, and then create a FileCountin
 
 CountInFile should do this for each file passed on the command line when invoked from the shell.
 
-What does a .class file do? How do you get one from a .java file?
+What does a .class file do? How do you get one from a .java file
 
+You may, should you find it necessary, use a command line tool called `make`.
 
