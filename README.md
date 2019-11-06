@@ -13,7 +13,6 @@ $ java CountInFile *.txt
       70     758    4193 flushingremonstrance.txt
       11      99     649 preamble.txt
       12     106     713 primedirective.txt
-     202    1689    9763 total
 ```
 
 Use ONLY nano, javac, and other command line tools to create this program. 
