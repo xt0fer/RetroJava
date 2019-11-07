@@ -13,7 +13,6 @@ $ java CountInFile *.txt
       70     758    4193 flushingremonstrance.txt
       11      99     649 preamble.txt
       12     106     713 primedirective.txt
-     202    1689    9763 total
 ```
 
 Use ONLY nano, javac, and other command line tools to create this program. 
@@ -31,6 +30,16 @@ CountInFile should get the command line arguments, and then create a FileCountin
 
 CountInFile should do this for each file passed on the command line when invoked from the shell.
 
-What does a .class file do? How do you get one from a .java file?
+What does a .class file do? How do you get one from a .java file
 
+You may, should you find it necessary, use a command line tool called `make`.
 
+NOTA BENE: You may need to understand the difference between a string's length and the byte[] that it actually uses. This comes into play when looking at the file with the chinese characters in it.
+
+NOTA BENE: If you want to understand what program you are trying to mimic, use `wc` without any commandline flags.
+
+You should only need the two supplied JAR files with the JUnit testing stuf in them.
+
+#### Some more pointers.
+
+When looking at the this lab, you should consider it a chance to learn how to use a terminal based screen editor for text files. You might use Nano or Vim (or even, gasp, Emacs) https://medium.com/linode-cube/emacs-nano-or-vim-choose-your-terminal-based-text-editor-wisely-8f3826c92a68 You may also need (and you should) use make to handle not having to type long java compile and test lines when you run your compiler on the code you develop.  https://www.cs.swarthmore.edu/~newhall/unixhelp/javamakefiles.html
